@@ -74,7 +74,12 @@ def get_data(row):
 
 
 if __name__ == "__main__":
-
+    print("-" * 60)
+    print(" _   _ ___ ___   _   _  _ _  ___    ___   ___   _ _____ ___ ___  _  _ ___  ")
+    print("| | | / __| _ ) /_\ | \| | |/ / |  / _ \ / __| /_\_   _|_ _/ _ \| \| / __| ")
+    print("| |_| \__ \ _ \/ _ \| .` | ' <| |_| (_) | (__ / _ \| |  | | (_) | .` \__ \ ")
+    print(" \___/|___/___/_/ \_\_|\_|_|\_\____\___/ \___/_/ \_\_| |___\___/|_|\_|___/ ")
+    print("-" * 60)
     # Add argumets
     parser = argparse.ArgumentParser()
     parser.add_argument("-f", "--filename", help="Name of the CSV FILE with extension")
